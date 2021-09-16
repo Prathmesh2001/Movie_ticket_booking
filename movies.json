@@ -1,0 +1,58 @@
+{
+    "AllMovies": [
+        {
+            "name": "Spirited Away",
+            "image": "https://image.tmdb.org/t/p/original/yA6TbjztJtop9sqNkZjhsUDq2Uy.jpg",
+            "desc": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+            "genre": "Animation, Adventure, Family",
+            "duration": "125 min",
+            "year": "2001",
+            "rating": "8.6"
+        },
+        {
+            "name": "Grave of the Fireflies",
+            "image": "https://th.bing.com/th/id/OIP.NQNFPygvvbu4tG3_3XgjlQHaLH?pid=ImgDet&rs=1",
+            "desc": "A young boy and his little sister struggle to survive in Japan during World War II.",
+            "genre": "Animation, Drama, War",
+            "duration": "89 min",
+            "year": "1988",
+            "rating": "8.5"
+        },
+        {
+            "name": "Your Name",
+            "image": "https://cdn.traileraddict.com/content/madman/your-name-poster.jpg",
+            "desc": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?",
+            "genre": "Animation, Drama, Fantasy",
+            "duration": "106 min",
+            "year": "2016",
+            "rating": "8.4"
+        },
+        {
+            "name": "My Neighbor Totoro",
+            "image": "https://picfiles.alphacoders.com/355/355178.jpg",
+            "desc": "When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.",
+            "genre": "Animation, Family, Fantasy",
+            "duration": "86 min",
+            "year": "1988",
+            "rating": "8.2"
+        },
+        {
+            "name": "Akira",
+            "image": "https://image.tmdb.org/t/p/original/tyTjCSFc3lxiqEfoj72ccfMNm3e.jpg",
+            "desc": "A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath who can only be stopped by a teenager, his gang of biker friends and a group of psychics.",
+            "genre": "Animation, Action, Drama",
+            "duration": "124 min",
+            "year": "1988",
+            "rating": "8"
+        },
+        {
+            "name": "Princess Mononoke",
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/5aac7714895269.5628a5b7b8327.jpg",
+            "desc": "On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara, a mining colony. In this quest he also meets San, the Mononoke Hime.",
+            "genre": "Animation, Action, Adventure",
+            "duration": "134 min",
+            "year": "1997",
+            "rating": "8.4"
+        }
+    ]
+}

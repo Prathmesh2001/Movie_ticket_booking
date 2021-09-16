@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Exp1</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <h2>Anime Screen</h2>
+        </div>
+    </nav>
+
+    <div class="home-container">
+        <div class="menu">
+            <ul>
+                <li id="l-explore-movies-button">Explore movies</li>
+                <li id="l-book-ticket-button">Book Ticket</li>
+                <li id="l-ticket-history-button">Ticket History</li>
+                <li id="l-references-button">References</li>
+            </ul>
+        </div>
+
+
+        <!-- ###################################### Right hand side ###################################### -->
+
+
+        <div class="desc">
+
+            <div id="explore-movies">
+                <h3 class="underline text-center">Explore Movies</h3>
+                <div id="all-movies">
+                    <!-- ### add movie posters ### -->
+                </div>
+            </div>
+
+
+
+            <!-- ############################################ booking section ###################################### -->
+            <div id="register-form">
+                <h3 class="underline text-center">User details</h3>
+                <div class="user-form">
+                    <form onsubmit="return false" id="user-details">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" name="fullName" id="fullName" required=''>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact">Contact Number</label>
+                            <input type="text" name="contact" id="contact" required=''>
+                        </div>
+                        <div class="form-group">
+                            <label for="emailId">Email</label>
+                            <input type="email" name="emailId" id="emailId" required=''>
+                        </div>
+                        <div class="form-group">
+                            <label for="selectMovie">Select Movie</label>
+                            <select name="selectMovie" id="selectMovie" required=''>
+                                <option value="">---</option>
+                                <!-- add options from json -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="seats">No of Seats</label>
+                            <input type="number" id="seats" required=''>
+                        </div>
+                        <div class="form-group">
+                            <label for="timeSlot">Select Slot</label>
+                            <select name="timeSlot" id="timeSlot" required=''>
+                                <option value="">---</option>
+                                <option value="9 AM - 11 AM">9 AM - 11 AM</option>
+                                <option value="12 PM- 2 PM">12 PM - 2 PM</option>
+                                <option value="4 PM- 6 PM">4 PM - 6 PM</option>
+                                <option value="7 PM- 9 PM">7 PM - 9 PM</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Book Ticket</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+            <!-- ############################################ booking history section ###################################### -->
+            <div id="table-div">
+                <h3 class="underline text-center">Tickets Booked History</h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Sr. No.</th>
+                        <th>Name</th>
+                        <th>Contact</th>
+                        <th>Movie Name</th>
+                        <th>No of tickets</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody id="ticket-history">
+
+                </tbody>
+                    <!-- Booking history will be here  -->
+                </table>
+            </div>
+
+            <!-- ############################################ references section ###################################### -->
+            <div id="references-section">
+                <h3 class="text-center underline">References</h3>
+                <div class="all-refs">
+                    <ul>
+                        <li><a target="_blank" href="https://www.w3schools.com/js/DEFAULT.asp">w3Schools Javascript</a></li>
+                        <li><a target="_blank" href="https://www.imdb.com/list/ls501667781/?sort=user_rating,desc&st_dt=&mode=detail&page=1">Movies Info from IMDb</a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/watch?v=SDZvJeSOIgc&t=1075s">CSS Overlay</a></li>
+                        <li>Movie posters references - <br>
+                            <a target="_blank" href="https://image.tmdb.org/t/p/original/yA6TbjztJtop9sqNkZjhsUDq2Uy.jpg ">image-1</a><br>
+                            <a target="_blank" href="https://th.bing.com/th/id/OIP.NQNFPygvvbu4tG3_3XgjlQHaLH?pid=ImgDet&rs=1 ">image-2</a><br>
+                            <a target="_blank" href="https://cdn.traileraddict.com/content/madman/your-name-poster.jpg">image-3</a><br>
+                            <a target="_blank" href="https://picfiles.alphacoders.com/355/355178.jpg ">image-4</a><br>
+                            <a target="_blank" href="https://image.tmdb.org/t/p/original/tyTjCSFc3lxiqEfoj72ccfMNm3e.jpg ">image-5</a><br>
+                            <a target="_blank" href="https://mir-s3-cdn-cf.behance.net/project_modules/fs/5aac7714895269.5628a5b7b8327.jpg ">image-6</a><br>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer id="footer-section">
+        <!-- <span>&#10070; &#10070; &#10070; &#10070; &#10070;</span> -->
+    </footer>
+
+
+
+    <script src="./main.js"></script>
+    <script>
+        let footerSection = document.getElementById('footer-section');
+        let spanElem = document.createElement('span');
+        for (let i=0; i<5; i++){
+            spanElem.innerHTML += ' &#10070; ';
+        }
+        footerSection.appendChild(spanElem);
+    </script>
+</body>
+
+</html>
